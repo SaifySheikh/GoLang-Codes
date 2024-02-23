@@ -19,7 +19,4 @@ func main() {
 		var result=calSum(num)
 		fmt.Println(result)
 	}
-
-	
-
 }	
