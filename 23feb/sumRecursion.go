@@ -2,7 +2,7 @@ package main
 import "fmt"
 
 func calSum(n int) int{
-	if(n==0){
+	if(n<=0){
 		return 0 
 	}else{
 		return n+calSum(n-1)
