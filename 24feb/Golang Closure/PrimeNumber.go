@@ -2,8 +2,11 @@ package main
 
 import "fmt"
 
+//Closure helps in Data Isolation
+
+
 func calculate() func() int{
-	num:=1
+	num:=1 //this is static declaration - it's value is initialized only once
 	// This anonymous func can't be used in main
 	return func() int{ 
 		num=num+2
