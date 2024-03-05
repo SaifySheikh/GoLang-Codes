@@ -17,4 +17,6 @@ func main(){
 
 	fmt.Println(strings.ToUpper(str))
 	fmt.Println(strings.ToLower(str))
+
+	fmt.Println(strings.Index(str, "y"))
 }

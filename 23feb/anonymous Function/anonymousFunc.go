@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	var greet=func(){
-		fmt.Println("hello ji")
+		fmt.Println("hello")
 	}
 	greet()
 }
